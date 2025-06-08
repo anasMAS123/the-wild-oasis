@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local environment settings
+*.local
+.env
+.env.*  # ignore all variants like .env.production, .env.local, etc.
